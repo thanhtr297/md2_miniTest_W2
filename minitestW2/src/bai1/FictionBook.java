@@ -18,4 +18,5 @@ public class FictionBook extends Book{
     public void setCategory(String category) {
         this.category = category;
     }
+
 }
