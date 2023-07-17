@@ -7,7 +7,7 @@ public class Main {
         int choice;
         do {
             System.out.println("MENU");
-            System.out.println("1. Display all product");
+            System.out.println("1. Display all Books");
             System.out.println("2. Total price of books");
             System.out.println("3. Number of Fiction book have category: Viễn tưởng 1");
             System.out.println("4. Number of  book have price < 90000");

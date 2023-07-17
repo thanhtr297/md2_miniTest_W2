@@ -19,4 +19,13 @@ public class FictionBook extends Book{
         this.category = category;
     }
 
+    @Override
+    public String toString() {
+        return "FictionBook{" +"bookCode=" + getBookCode() +
+                ", name='" + getName() + '\'' +
+                ", price=" + getPrice() +
+                ", author='" + getAuthor() + '\'' +
+                "category='" + category + '\'' +
+                '}';
+    }
 }
