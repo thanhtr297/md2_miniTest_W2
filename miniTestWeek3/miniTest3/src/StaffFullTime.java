@@ -1,9 +1,9 @@
-public class StaffFulltime extends Staff {
+public class StaffFullTime extends Staff {
     private double bonus;
     private double forfeit;
     private double hardSalary;
 
-    public StaffFulltime(Integer id, String name, Integer age, Integer phoneNumber, String email, Address address, double bonus, double forfeit, double hardSalary) {
+    public StaffFullTime(Integer id, String name, Integer age, Integer phoneNumber, String email, Address address, double bonus, double forfeit, double hardSalary) {
         super(id, name, age, phoneNumber, email, address);
         this.bonus = bonus;
         this.forfeit = forfeit;
@@ -36,7 +36,7 @@ public class StaffFulltime extends Staff {
 
     @Override
     public String toString() {
-        return "StaffFulltime {" + super.toString() +
+        return "StaffFullTime {" + super.toString() +
                 "bonus=" + bonus +
                 ", forfeit=" + forfeit +
                 ", hardSalary=" + hardSalary +

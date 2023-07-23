@@ -1,10 +1,10 @@
-public class StaffParttime extends Staff {
+public class StaffPartTime extends Staff {
     private double workingHours;
 
-    public StaffParttime() {
+    public StaffPartTime() {
     }
 
-    public StaffParttime(Integer id, String name, Integer age, Integer phoneNumber, String email, Address address, double workingHours) {
+    public StaffPartTime(Integer id, String name, Integer age, Integer phoneNumber, String email, Address address, double workingHours) {
         super(id, name, age, phoneNumber, email, address);
         this.workingHours = workingHours;
     }
@@ -19,7 +19,7 @@ public class StaffParttime extends Staff {
 
     @Override
     public String toString() {
-        return "StaffParttime{" + super.toString() +
+        return "StaffPartTime{" + super.toString() +
                 "workingHours=" + workingHours +
                 '}';
     }
